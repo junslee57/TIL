@@ -1,0 +1,19 @@
+{
+  "name": "TIL",
+  "version": "0.0.1",
+  "description": "Today Jun Learn",
+  "main": "index.js",
+  "authors": {
+    "name": "Junsang Lee",
+    "email": "junslee57@gmail.com"
+  },
+  "repository": "TIL/TIL",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
