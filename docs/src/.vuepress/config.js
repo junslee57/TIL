@@ -4,11 +4,11 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'Today Jun Learn',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: description,
+  description: 'Today Jun Learn',
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -34,22 +34,30 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Home',
+        link: '/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'Tech',
+        link: '/Tech/',
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'Today',
+        link: '/Today/'
+      },
+      {
+        text: 'Resume',
+        link: 'https://junslee57.github.io/Portfolio/'
+      },
+      {
+        text: 'GitHub',
+        link: 'https://github.com/junslee57'
       }
     ],
     sidebar: {
-      '/guide/': [
+      '/Tech/': [
         {
-          title: 'Guide',
+          title: 'Tech',
           collapsable: false,
           children: [
             '',
